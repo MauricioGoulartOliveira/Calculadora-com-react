@@ -1,11 +1,12 @@
 
+import { InputContainer } from './styles';
 
-const input = () => {
+const Input = () => {
     return (
-      <div className="App">
-        olayarn
-      </div>
+      <InputContainer>
+        ola
+      </InputContainer>
     );
   }
   
-  export default input;
+  export default Input;

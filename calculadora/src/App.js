@@ -1,10 +1,16 @@
-import { Container } from "./style";
+import { Container, Content } from "./style";
+
+
+import input from './components/input';
+import Button from './components/Button';
 
 
 const App =() => {
   return (
     <Container>
-      Olá
+      <Content>
+      <input/>
+      </Content>
     </Container>
   );
 }
